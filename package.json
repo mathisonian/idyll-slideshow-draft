@@ -1,0 +1,33 @@
+{
+  "name": "slideshow",
+  "version": "1.0.0",
+  "license": "MIT",
+  "idyll": {
+    "theme": "default",
+    "layout": "blog",
+    "css": "styles.css"
+  },
+  "scripts": {
+    "recognizer": "GOOGLE_APPLICATION_CREDENTIALS=./google-keys.json node recognizer.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^3.0.0",
+    "@serialport/parser-readline": "^2.0.2",
+    "d3": "^4.0.0",
+    "idyll": "^4.0.0",
+    "idyll-d3-component": "^2.0.0",
+    "idyll-vega-lite": "^1.0.2",
+    "node-geocoder": "^3.23.0",
+    "node-record-lpcm16": "^0.3.1",
+    "react-map-gl": "^5.0.3",
+    "robotjs": "^0.5.1",
+    "serialport": "^7.1.5",
+    "tween.js": "^16.6.0",
+    "vega": "^5.4.0",
+    "vega-lite": "^3.3.0",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
